@@ -1,0 +1,7 @@
+ {
+ "Usuarios"[ 
+ {"Nombre":"Luis","Status":"Online"};
+ {"Nombre":"Pedro","Status":"Offline};
+ ]
+ "CuentaUsuarios";2
+ }
