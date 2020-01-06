@@ -3,7 +3,7 @@ apikey = ‘********'
 lenguaje = 'spa'
 ligaPetición =
 'https://api.havenondemand.com/1/api/sync/analyzesentiment/v1?text={0}&language={1}&apikey={2}'
-mensaje1 = "me gusto mucho el apoyo pero todo esta mal hecho"
+mensaje1 = "Comment here"
 ligaPetición = ligaPetición.format(mensaje1,lenguaje,apikey)
 print(ligaPetición)
 jsonRespuesta= requests.get(ligaPetición).json()
